@@ -17,6 +17,10 @@ public class SendEmailManager
         }
     }
 
+    /// <summary>
+    /// 发送邮件
+    /// </summary>
+    /// <param name="pwd">授权码</param>
     public void SendEmail(string stmpServer, string mailAccount, string pwd,
         string mailTo, string mailTitle, string mailContent)
     {
